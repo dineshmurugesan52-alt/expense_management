@@ -51,6 +51,7 @@ module.exports = class ExpenseService extends cds.ApplicationService {
                 ID: ID
             };
         });
+        console.log("new");
 
         return super.init();
     }
